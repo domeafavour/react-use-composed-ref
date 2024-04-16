@@ -1,0 +1,17 @@
+{
+  "name": "react-use-composed-ref",
+  "version": "0.0.1",
+  "description": "react use composed ref",
+  "main": "src/index.ts",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.78",
+    "typescript": "^5.4.5"
+  }
+}
