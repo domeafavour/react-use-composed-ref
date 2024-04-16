@@ -2,16 +2,20 @@
   "name": "react-use-composed-ref",
   "version": "0.0.1",
   "description": "react use composed ref",
-  "main": "src/index.ts",
-  "scripts": {},
+  "main": "./.dist/index.js",
+  "types": "./.dist/index.d.ts",
+  "scripts": {
+    "build": "tsup && tsup --dts"
+  },
   "keywords": [],
   "author": "",
   "license": "MIT",
-  "dependencies": {
-    "react": "^18.2.0"
+  "peerDependencies": {
+    "react": "^16.8.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.78",
+    "tsup": "^8.0.2",
     "typescript": "^5.4.5"
   }
 }
