@@ -11,10 +11,11 @@
   "author": "domeafavour",
   "license": "MIT",
   "peerDependencies": {
-    "react": "^16.8.0"
+    "react": ">=16.8.0"
   },
   "devDependencies": {
-    "@types/react": "^18.2.78",
+    "@types/react": ">=16.8.0",
+    "react": ">=16.8.0",
     "tsup": "^8.0.2",
     "typescript": "^5.4.5"
   },
