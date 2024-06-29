@@ -10,7 +10,12 @@
   "scripts": {
     "build": "tsup"
   },
-  "keywords": [],
+  "keywords": [
+    "react",
+    "hook",
+    "ref",
+    "composed-ref"
+  ],
   "author": "domeafavour",
   "license": "MIT",
   "peerDependencies": {
