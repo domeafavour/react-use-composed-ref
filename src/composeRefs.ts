@@ -1,5 +1,5 @@
-import React from 'react';
-import { resolveRefs } from './resolveRefs';
+import React from "react";
+import { resolveRefs } from "./resolveRefs";
 
 export function composeRefs<V>(
   ...refs: React.ForwardedRef<V>[]

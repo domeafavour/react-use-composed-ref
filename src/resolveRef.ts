@@ -1,5 +1,5 @@
-import type React from 'react';
-import { isRefCallback } from './isRefCallback';
+import type React from "react";
+import { isRefCallback } from "./isRefCallback";
 
 export function resolveRef<V>(value: V, ref: React.ForwardedRef<V>) {
   if (!ref) {
