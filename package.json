@@ -1,6 +1,6 @@
 {
   "name": "react-use-composed-ref",
-  "version": "1.1.1",
+  "version": "1.2.1",
   "description": "A lightweight React hook for composing multiple refs into a single ref callback. Supports cleanup functions returned by ref callbacks.",
   "main": ".dist/index.js",
   "types": ".dist/index.d.ts",
