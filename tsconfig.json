@@ -1,12 +1,13 @@
 {
   "include": ["src/**/*"],
   "compilerOptions": {
+    "jsx": "react",
     "declaration": true,
     "declarationDir": "./types",
     "emitDeclarationOnly": true,
     "forceConsistentCasingInFileNames": true,
     "allowSyntheticDefaultImports": true,
-    "lib": ["esnext"],
+    "lib": ["esnext", "DOM"],
     "module": "esnext",
     "moduleResolution": "node",
     "resolveJsonModule": true,
